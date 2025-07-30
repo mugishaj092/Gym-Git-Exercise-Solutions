@@ -140,3 +140,35 @@ walmond@Walmonds-MacBook-Pro Gym-Git-Exercise-Solutions % git reset --hard
 HEAD is now at 6144d3c Will add about and home pages
 walmond@Walmonds-MacBook-Pro Gym-Git-Exercise-Solutions % 
 ```
+
+# Bundle 2
+## Exercises 1
+
+```bash
+walmond@Walmonds-MacBook-Pro Gym-Git-Exercise-Solutions % git checkout -b ft/bundle-2
+Switched to a new branch 'ft/bundle-2'
+
+walmond@Walmonds-MacBook-Pro Gym-Git-Exercise-Solutions % git add .                  
+
+walmond@Walmonds-MacBook-Pro Gym-Git-Exercise-Solutions % git commit -m "Will add service page"
+[ft/bundle-2 ab6ff90] Will add service page
+ 1 file changed, 11 insertions(+)
+ create mode 100644 services.html
+
+walmond@Walmonds-MacBook-Pro Gym-Git-Exercise-Solutions % git push -u origin ft/bundle-2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 436 bytes | 436.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'ft/bundle-2' on GitHub by visiting:
+remote:      https://github.com/mugishaj092/Gym-Git-Exercise-Solutions/pull/new/ft/bundle-2
+remote: 
+To https://github.com/mugishaj092/Gym-Git-Exercise-Solutions.git
+ * [new branch]      ft/bundle-2 -> ft/bundle-2
+branch 'ft/bundle-2' set up to track 'origin/ft/bundle-2'.
+walmond@Walmonds-MacBook-Pro Gym-Git-Exercise-Solutions % 
+```
