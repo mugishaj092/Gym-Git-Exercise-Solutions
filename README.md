@@ -67,3 +67,29 @@ git push -u origin ft/bundle-2
  1134  git commit -m "Will solve the conflict which was caused by the change i made on main"
  1135  git push
 ```
+
+# Bundle 3
+## Exercises 1
+
+```bash
+ 1149  git checkout -b ft/team-page
+ 1150  git add .
+ 1151  git commit -m "Will add team page and it's content"
+ 1153  git push -u origin ft/team-page
+ 1154  git checkout main
+ 1155  git branch ft/contact-page
+ 1156  git checkout ft/team-page
+ 1157  git log
+ 1158  git checkout ft/contact-page
+ 1159  git cherry-pick 857f0699fa5f107ccaec1b9b4cdf4b648fd0f595
+ 1160  git status
+ 1161  git push -u orgin ft/contact-page
+ 1162  git push -u origin ft/contact-page
+ 1163  git checkout -b ft/faq-page
+ 1164  git add .
+ 1165  git commit -m "Add faq page"
+ 1166  git push -u origin ft/faq-page
+ 1167  git log
+ 1168  git revert 857f0699fa5f107ccaec1b9b4cdf4b648fd0f595
+ 1169  git push -u origin ft/faq-page
+```
