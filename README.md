@@ -93,3 +93,21 @@ git push -u origin ft/bundle-2
  1168  git revert 857f0699fa5f107ccaec1b9b4cdf4b648fd0f595
  1169  git push -u origin ft/faq-page
 ```
+
+# Bundle 4
+## Exercises 1
+
+```bash
+1183  git branch
+ 1184  git checkout ft/faq-page
+ 1185  git checkout -b ft/home-page-redesign
+ 1186  git checkout main
+ 1187  git add .
+ 1188  git commit -m "Make change to home page"
+ 1189  git push
+ 1195  git checkout  ft/home-page-redesign
+ 1196  git rebase main
+ 1197  git add .
+ 1198  git rebase --continue
+ 1199  git push -u origin ft/home-page-redesign
+ ```
