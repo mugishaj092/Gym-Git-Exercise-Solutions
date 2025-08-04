@@ -125,3 +125,19 @@ git push -u origin ft/bundle-2
  1225  git push origin main
  1233  git push git-copy main
 ```
+
+## Exercises 2
+
+```bash
+1242  git checkout -b ft/footer
+ 1243  git add .
+ 1244  git commit -m "Changes on home page"
+ 1245  git add .
+ 1246  git commit -m "Changes on service page"
+ 1247  git push -u origin ft/footer
+ 1251  git checkout main
+ 1252  git checkout -b ft/squashing
+ 1253  git merge --squash ft/footer\n
+ 1254  git commit -m "footer changes squashing"\n
+ 1255  git push -u origin ft/squashing
+```
