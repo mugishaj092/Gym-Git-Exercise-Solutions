@@ -94,8 +94,7 @@ git push -u origin ft/bundle-2
  1169  git push -u origin ft/faq-page
 ```
 
-# Bundle 4
-## Exercises 1
+## Exercises 2
 
 ```bash
 1183  git branch
@@ -111,3 +110,18 @@ git push -u origin ft/bundle-2
  1198  git rebase --continue
  1199  git push -u origin ft/home-page-redesign
  ```
+
+
+# Bundle 4
+## Exercises 1
+```bash
+ 1217  git checkout main
+ 1218  git remote -v
+ 1219  git remote add git-copy https://github.com/mugishaj092/Gym-Git-Exercise-Solutions2.git
+ 1220  git remote -v
+ 1221  git pull
+ 1223  git add .
+ 1224  git commit -m "Add action button on homepage"
+ 1225  git push origin main
+ 1233  git push git-copy main
+```
